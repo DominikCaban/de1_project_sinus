@@ -74,14 +74,14 @@ Deska Nexys A7 je kompletní platforma pro vývoj digitálních obvodů, založe
 -	Sínus sme rozdelili na 36 častí, ktoré sme vytvorili pomocou excelu a pomocou signálu s_data_cnt volíme správnu hodnotu pre časový okamžik. Signálom s_treshold, ktorý je riadený vstupom FREQ ovládame periódu každého PWM pulzu a tým pádom aj frekvenciu výslednej sínusoidy. 
 
 #### Odkaz na kód modulu Sin-gen
-https://github.com/DominikCaban/digital-electronics-1/blob/main/projekt_sinus/de1_projekt.srcs/sources_1/new/sin_generator.vhd
+https://github.com/DominikCaban/de1_project_sinus/blob/main/projectdir/de1_projekt.srcs/sources_1/new/sin_generator.vhd
 
 ### Modul SW handler 
 
 - Switch handler slúži na spravcovanie vstupu z prepínačov a jeho výstupom je frekvencia jednotlivých tónov. Jeho ďalším výstupom sú hodnoty data0_i a data1_i, ktoré slúžia na zobrzovanie aktuálne znejúceho tónu.
 
 #### Odkaz na kód modulu SW handler
-https://github.com/DominikCaban/digital-electronics-1/blob/main/projekt_sinus/de1_projekt.srcs/sources_1/new/switch_handler.vhd
+https://github.com/DominikCaban/de1_project_sinus/blob/main/projectdir/de1_projekt.srcs/sources_1/new/switch_handler.vhd
 
 ### Modul PWM_gen
 
@@ -89,7 +89,7 @@ https://github.com/DominikCaban/digital-electronics-1/blob/main/projekt_sinus/de
 - Generovanie PWM signálov je jednoduché. Vedieme signál s_cnt, ktorým počítame časové impulzy a kontrolujeme či sme nedosiahli požadovanú striedu porovnávaním so signálom s_duty_old.
  
 #### Odkaz na kód modulu PWM_gen
-https://github.com/DominikCaban/digital-electronics-1/blob/main/projekt_sinus/de1_projekt.srcs/sources_1/new/pwm_generator.vhd
+https://github.com/DominikCaban/de1_project_sinus/blob/main/projectdir/de1_projekt.srcs/sources_1/new/pwm_generator.vhd
 
 
 ### Modul Driver-7seg
@@ -97,7 +97,7 @@ https://github.com/DominikCaban/digital-electronics-1/blob/main/projekt_sinus/de
 - Modul driver_seg4 je upravenou verziou ovládača 7-segmentových displejov, ktoré sme využili z cvičení. Úprava spočívala v použití nového prevodníka z BCD na výstupy katód hex_7seg_letters , ktorý miesto čísiel zobrazoval tóny. Išlo o improvizovanú špeciálnu úpravu prevodníku hex_7seg, ktorý bol navrhnutý na cvičení DE1.
 
 #### Odkaz na kód modulu Driver-7seg
-https://github.com/DominikCaban/digital-electronics-1/blob/main/projekt_sinus/de1_projekt.srcs/sources_1/new/driver_7seg_4digits.vhd
+https://github.com/DominikCaban/de1_project_sinus/blob/main/projectdir/de1_projekt.srcs/sources_1/new/driver_7seg_4digits.vhd
 
 ### Výsledek testbench z prostředí Vivada
 
@@ -112,7 +112,7 @@ Střed                      |Průchod nulou
 TOP modul v sobě "skrývá" všechny moduly a umožnuje je připojit k hardwarových komponentům (v našem ppřípadě deska Nexys A7-50T)
 
 ### Odkaz na kód TOP modulu
-https://github.com/DominikCaban/digital-electronics-1/blob/main/projekt_sinus/de1_projekt.srcs/sources_1/new/top.vhd
+https://github.com/DominikCaban/de1_project_sinus/blob/main/projectdir/de1_projekt.srcs/sources_1/new/top.vhd
 
 ![TOP_Schema](https://user-images.githubusercontent.com/99397107/165823085-27287982-7e3d-4061-8c78-0134287f429d.JPG)
 |:--:| 
