@@ -41,7 +41,9 @@
 Deska Nexys A7 je kompletní platforma pro vývoj digitálních obvodů, založená na nejnovějším Artix-7™ Field Programmable Gate Array (FPGA) od Xilinx®. Díky velkému, vysokokapacitnímu FPGA, velkorysým externím pamětem a nabídce spousty portů - USB, Ethernet a dalších, může Nexys A7 hostit návrhy od úvodních kombinačních obvodů až po výkonné vestavěné procesory. Několik vestavěných periferních zařízení, včetně akcelerometru, teplotního senzoru, digitálního mikrofonu MEM, zesilovače reproduktorů a několika I/O zařízení, umožňuje využít vývojovou desku Nexys A7-50T pro širokou škálu návrhů, bez nutnosti připojení externího hardwaru.
 
 
-![nexys-a7-obl-600](https://user-images.githubusercontent.com/99388246/165694448-dfccf257-62a9-4c5e-bb68-ceab544a98f1.png)
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/99388246/165694448-dfccf257-62a9-4c5e-bb68-ceab544a98f1.png">
+
  <fig caption> <p align="center"> Nexys A7-50T
 
 ### Zesilovač
