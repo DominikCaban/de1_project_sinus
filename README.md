@@ -28,10 +28,10 @@
 
 ## Cíle projektu
 
-- Cílem projektu v rámci předmětu Digitální elektronika 1 bylo vytvořit PWM generování zvuku základních signálů
-- Deska Nexys A7-50 pro ovládání 7segmentového displeje pro zobrazení frekvence PWM modulace pro sinusový signál. 
-- Kódy, testovací plochy a simulace jsou vytvořeny ve Vivadu.
-- Modely a návrhy desky jsou vytvořeny v Altium (PCB Design Softwares).
+- využít desku Nexys A7-50 pro PWM generování zvuku základních signálů.
+- využít desku Nexys A7-50 pro ovládání 7segmentového displeje a zobrazení frekvence PWM modulace pro sinusový signál. 
+- vytvořit kód a simulace v prostředí Vivada.
+- vytořit schému a návrh desky v prostředí Altia (PCB Design Software).
 
 <a name="hardware"></a>
 
@@ -48,16 +48,16 @@ Deska Nexys A7 je kompletní platforma pro vývoj digitálních obvodů, založe
 
 - Do našeho studentského projektu jsme zakomponovali také vývojový kit - výstupní zesilovač s nastavitelným ziskem. Hlavní smysl našeho zesilovače je v rámci výuky přiblížit studentům samotný HW (ovšem vývojový kit od XILINX v našem případě deska Nexys A7-50T naprosto stačí).
 - Tento zesilovač by v případě realizace (GERBERY sú uvedené v prílohách projektu, ten QR kód funguje :)) sloužil na nastavení výstupní amplitudy signálu tj. větší zesílení zvuku.
-- Na vstupu zesilovače je zavedena ochrana proti nesprávnému zapojení napájecího napětí (polaritě),TVS (ochranná dioda) proti přesáhnutí maximálního napětí přivedeného na zesilovač a Low-pass filter pro potlačení rušení. 
-- Např. při napájení zesilovače z USB notebooku, můžeme dostat nasuperponované vysokofrekvenční rušení a tento filtr nám dokáže tyto nebezpečné složky potlačit.
-- Návrh zesilovače je realizovaný pomocí aplikace Altium Limited software, kde po návrhnutí schématu se vytvoří DPS viz. obrázky níže.
+- Na vstupu zesilovače je zavedena ochrana proti nesprávnému zapojení napájecího napětí (polaritě),TVS dioda proti přesáhnutí maximálního napětí přivedeného na zesilovač a Low-pass filter pro potlačení rušení. 
+- Např. při napájení zesilovače z USB notebooku, můžeme dostat nasuperponované vysokofrekvenční rušení a tento filtr nám dokáže tyto složky potlačit.
+- Návrh zesilovače je realizovaný pomocí aplikace Altium Designer, kde po návrhnutí schématu se vytvořila DPS viz. obrázky níže.
 
 
 3D Model desky zesilovače <br> (Vrchní pohled) |Layoutový pohled desky zesilovače <br> (Vrchní pohled)
 :-------------------------:|:-------------------------:
 ![278620852_1021410442135136_7154315500152959101_n](https://user-images.githubusercontent.com/99388246/165693223-0a94e4e5-78b2-440c-bc23-228c8eb99cf3.png)|![278885036_353535676806500_6518462935903523547_n](https://user-images.githubusercontent.com/99388246/165693208-ae4fd1d9-7659-4385-9e47-1a015b2743d0.png)
 
-3D Model desky zesilovače <br> (Spodní pohled)|Layoutový pohled desky zesilovače <br> (Spodní pohled)
+3D Model desky zesilovače <br> (Boční pohled)|Layoutový pohled desky zesilovače <br> (Spodní pohled)
 :-------------------------:|:-------------------------:
 ![TOP_LR_VIEW](https://user-images.githubusercontent.com/99397107/165839082-08e70d71-ed08-4b9f-8b42-5cba28c647ea.JPG)|![BOT_LR_VIEW](https://user-images.githubusercontent.com/99397107/165839125-298f1211-196a-41d6-ac05-d930292057f7.JPG)
 
@@ -141,9 +141,11 @@ https://youtu.be/nLSVV8CweyI
 <a name="references"></a>
 
 ## Diskuze o výsledcích projektu
-
+- Na snímkoch z ociloskopu možme pozorovať, že výsledna sínusoida nie je hladká, ale má "schodovitý tvar". Je to dané metódou, ktorú používame na generovanie sínusu, kedy si sínusoidu rozdelíme na 36 častí a každá z nich má istú úroveň. Hladšiu sínusoidu by sme dosiahli, ak by sme použili viacero častí, ale 36 častí pre naše účely postačuje.
+- Jeden z problémov, ktorý sme riešili, bol, že sme nevedeli vypočítať periódu PWM pulzov, pre ktoré by sme dosiahli požadovanú frekvenciu audio signálu. Po mnoha nevydarených výpočtoch sme použili experimentálnu metódu, kedy sme s pomocu osciloskopu prišli na periódu pwm pulzov, kedy má audio signál 1 kHz (bolo to 27770 ns).
+ Zvyšné frekvencie sme dopočítali podľa vzorca p = (2777/(f/1000)), dané riešenie fungovalo.
 - Ideálnější variantou by bylo využití VGA zesilovače, který by byl řiditelný přes vývojový kit, ovšem realizace v tomto konkrétním případě by byla komplikovaná a projekt by jen zkomplikovala.
-- Projekt nám přinesl vela radosti, zabavili jsme se u toho a naučili jsme se mnoho nových věcí.
+- Projekt nám přinesl vela nových skúseností, a naučili jsme se mnoho nových věcí. 
 
 ## Literatura
 
