@@ -155,7 +155,7 @@ https://youtu.be/nLSVV8CweyI
 - https://digilent.com/reference/programmable-logic/nexys-a7/reference-manual?redirect=1
 
 2. Github:
-- https://github.com/tomas-fryza/digital-electronics-1/tree
+- https://github.com/tomas-fryza/digital-electronics-1
  
 3. Sine wave generator using PWM:
 - https://www.ti.com/lit/an/spna217/spna217.pdf?
