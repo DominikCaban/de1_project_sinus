@@ -1,0 +1,969 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Thu Apr 28 15:32:23 2022
+# Process ID: 22496
+# Current directory: C:/DC_vivado_projects/de1_projekt_final/de1_projekt
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19564 C:\DC_vivado_projects\de1_projekt_final\de1_projekt\de1_projekt.xpr
+# Log file: C:/DC_vivado_projects/de1_projekt_final/de1_projekt/vivado.log
+# Journal file: C:/DC_vivado_projects/de1_projekt_final/de1_projekt\vivado.jou
+# Running On: DESKTOP-S6T5VL6, OS: Windows, CPU Frequency: 2400 MHz, CPU Physical cores: 8, Host memory: 34092 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.xpr
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Xilinx/Vivado/2021.2/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:gzu_3eg:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/boards/board_files/genesys-zu-3eg/B.0/board.xml as part xczu3eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:gzu_3eg:part0:1.1 available at C:/Xilinx/Vivado/2021.2/data/boards/board_files/genesys-zu-3eg/D.0/board.xml as part xczu3eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:gzu_5ev:part0:1.1 available at C:/Xilinx/Vivado/2021.2/data/boards/board_files/genesys-zu-5ev/C.0/board.xml as part xczu5ev-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:sword:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/boards/board_files/sword/C.0/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_es:part0:1.3 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/es/1.3/board.xml as part xcvc1902-vsva2197-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_es:part0:1.3 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/es/1.3/board.xml as part xcvm1802-vsva2197-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu104:part0:1.1 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu104/1.1/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.4 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.4/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.5 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.5/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.6 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.6/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.0/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.1 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.1/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.2 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.2/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld_es:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/es/1.0/board.xml as part xczu58dr-fsvg1517-2-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.0/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.1 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.1/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.2 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.2/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld_es:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/es/1.0/board.xml as part xczu59dr-ffvf1760-2-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/1.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.2/data/ip'.
+open_project: Time (s): cpu = 00:00:32 ; elapsed = 00:00:11 . Memory (MB): peak = 1579.973 ; gain = 0.000
+update_compile_order -fileset sources_1
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/utils_1/imports/synth_1/top.dcp with file C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/synth_1/top.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Apr 28 15:34:18 2022] Launched synth_1...
+Run output will be captured here: C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/synth_1/runme.log
+[Thu Apr 28 15:34:18 2022] Launched impl_1...
+Run output will be captured here: C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7a50ticsg324-1L
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1590.926 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 14 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2021.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.051 . Memory (MB): peak = 2247.027 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.052 . Memory (MB): peak = 2247.027 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2247.027 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:27 ; elapsed = 00:00:17 . Memory (MB): peak = 2400.199 ; gain = 820.227
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3414] Connected to existing cs_server.
+connect_hw_server: Time (s): cpu = 00:00:03 ; elapsed = 00:00:25 . Memory (MB): peak = 2402.305 ; gain = 2.105
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292AD2E25A
+open_hw_target: Time (s): cpu = 00:00:08 ; elapsed = 00:00:26 . Memory (MB): peak = 4142.277 ; gain = 1739.973
+set_property PROGRAM.FILE {C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/impl_1/top.bit} [get_hw_devices xc7a50t_0]
+current_hw_device [get_hw_devices xc7a50t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a50t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a50t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device: Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 4175.918 ; gain = 33.141
+set_property PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property PROGRAM.FILE {C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/impl_1/top.bit} [get_hw_devices xc7a50t_0]
+program_hw_devices [get_hw_devices xc7a50t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 4175.918 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a50t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a50t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device: Time (s): cpu = 00:00:01 ; elapsed = 00:00:20 . Memory (MB): peak = 4175.918 ; gain = 0.000
+close_hw_manager
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/utils_1/imports/synth_1/top.dcp with file C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/synth_1/top.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Apr 28 15:47:01 2022] Launched synth_1...
+Run output will be captured here: C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/synth_1/runme.log
+[Thu Apr 28 15:47:01 2022] Launched impl_1...
+Run output will be captured here: C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3414] Connected to existing cs_server.
+connect_hw_server: Time (s): cpu = 00:00:04 ; elapsed = 00:00:36 . Memory (MB): peak = 4242.723 ; gain = 0.891
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292AD2E25A
+open_hw_target: Time (s): cpu = 00:00:01 ; elapsed = 00:00:20 . Memory (MB): peak = 4242.723 ; gain = 0.000
+set_property PROGRAM.FILE {C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/impl_1/top.bit} [get_hw_devices xc7a50t_0]
+current_hw_device [get_hw_devices xc7a50t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a50t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a50t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device: Time (s): cpu = 00:00:01 ; elapsed = 00:00:20 . Memory (MB): peak = 4242.723 ; gain = 0.000
+set_property PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property PROGRAM.FILE {C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/impl_1/top.bit} [get_hw_devices xc7a50t_0]
+program_hw_devices [get_hw_devices xc7a50t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 4242.723 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a50t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a50t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device: Time (s): cpu = 00:00:02 ; elapsed = 00:00:20 . Memory (MB): peak = 4242.898 ; gain = 0.176
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/utils_1/imports/synth_1/top.dcp with file C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/synth_1/top.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Apr 28 15:52:56 2022] Launched synth_1...
+Run output will be captured here: C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/synth_1/runme.log
+[Thu Apr 28 15:52:56 2022] Launched impl_1...
+Run output will be captured here: C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property PROGRAM.FILE {C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/impl_1/top.bit} [get_hw_devices xc7a50t_0]
+program_hw_devices [get_hw_devices xc7a50t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:02 ; elapsed = 00:00:20 . Memory (MB): peak = 4242.898 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a50t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a50t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device: Time (s): cpu = 00:00:01 ; elapsed = 00:00:20 . Memory (MB): peak = 4243.016 ; gain = 0.117
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/utils_1/imports/synth_1/top.dcp with file C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/synth_1/top.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Apr 28 15:58:02 2022] Launched synth_1...
+Run output will be captured here: C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/synth_1/runme.log
+[Thu Apr 28 15:58:02 2022] Launched impl_1...
+Run output will be captured here: C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property PROGRAM.FILE {C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/impl_1/top.bit} [get_hw_devices xc7a50t_0]
+program_hw_devices [get_hw_devices xc7a50t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 4243.016 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a50t_0] 0]
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Labtools 27-1434] Device xc7a50t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+INFO: [Common 17-344] 'refresh_hw_device' was cancelled
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/utils_1/imports/synth_1/top.dcp with file C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/synth_1/top.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Apr 28 16:01:54 2022] Launched synth_1...
+Run output will be captured here: C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/synth_1/runme.log
+[Thu Apr 28 16:01:54 2022] Launched impl_1...
+Run output will be captured here: C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property PROGRAM.FILE {C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/impl_1/top.bit} [get_hw_devices xc7a50t_0]
+program_hw_devices [get_hw_devices xc7a50t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 4245.836 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a50t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a50t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device: Time (s): cpu = 00:00:00 ; elapsed = 00:00:20 . Memory (MB): peak = 4245.836 ; gain = 0.000
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/utils_1/imports/synth_1/top.dcp with file C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/synth_1/top.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Apr 28 16:06:59 2022] Launched synth_1...
+Run output will be captured here: C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/synth_1/runme.log
+[Thu Apr 28 16:06:59 2022] Launched impl_1...
+Run output will be captured here: C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property PROGRAM.FILE {C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/impl_1/top.bit} [get_hw_devices xc7a50t_0]
+program_hw_devices [get_hw_devices xc7a50t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:02 ; elapsed = 00:00:19 . Memory (MB): peak = 4245.836 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a50t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a50t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device: Time (s): cpu = 00:00:01 ; elapsed = 00:00:20 . Memory (MB): peak = 4251.664 ; gain = 5.828
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/utils_1/imports/synth_1/top.dcp with file C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/synth_1/top.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Apr 28 16:10:56 2022] Launched synth_1...
+Run output will be captured here: C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/synth_1/runme.log
+[Thu Apr 28 16:10:56 2022] Launched impl_1...
+Run output will be captured here: C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property PROGRAM.FILE {C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/impl_1/top.bit} [get_hw_devices xc7a50t_0]
+program_hw_devices [get_hw_devices xc7a50t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:02 ; elapsed = 00:00:19 . Memory (MB): peak = 4251.664 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a50t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a50t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device: Time (s): cpu = 00:00:01 ; elapsed = 00:00:20 . Memory (MB): peak = 4253.715 ; gain = 2.051
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/utils_1/imports/synth_1/top.dcp with file C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/synth_1/top.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/synth_1
+
+launch_runs synth_1 -jobs 8
+[Thu Apr 28 16:45:34 2022] Launched synth_1...
+Run output will be captured here: C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/synth_1/runme.log
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/utils_1/imports/synth_1/top.dcp with file C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/synth_1/top.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/synth_1
+
+launch_runs synth_1 -jobs 8
+[Thu Apr 28 17:15:42 2022] Launched synth_1...
+Run output will be captured here: C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/synth_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/synth_1
+
+launch_runs synth_1 -jobs 8
+[Thu Apr 28 17:16:35 2022] Launched synth_1...
+Run output will be captured here: C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/synth_1/runme.log
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/utils_1/imports/synth_1/top.dcp with file C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/synth_1/top.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Apr 28 17:21:09 2022] Launched synth_1...
+Run output will be captured here: C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/synth_1/runme.log
+[Thu Apr 28 17:21:09 2022] Launched impl_1...
+Run output will be captured here: C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property PROGRAM.FILE {C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/impl_1/top.bit} [get_hw_devices xc7a50t_0]
+program_hw_devices [get_hw_devices xc7a50t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:02 ; elapsed = 00:00:19 . Memory (MB): peak = 4267.582 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a50t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a50t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device: Time (s): cpu = 00:00:01 ; elapsed = 00:00:20 . Memory (MB): peak = 4270.363 ; gain = 2.781
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_top'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_top_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/sources_1/new/clock_enable.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'clock_enable'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/sources_1/new/cnt_up_down.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'cnt_up_down'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/sources_1/new/hex_7seg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'hex_7seg'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/sources_1/new/hex_7seg_letters.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'hex_7seg_letters'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/sources_1/new/driver_7seg_4digits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'driver_7seg_4digits'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/sources_1/new/pwm_generator.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'pwm_generator'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/sources_1/new/sin_generator.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'sin_generator'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/sources_1/new/switch_handler.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'switch_handler'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/sources_1/new/top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'top'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/sim_1/new/tb_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_top'
+ERROR: [VRFC 10-3353] formal port 'btnc' has no actual or default value [C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/sim_1/new/tb_top.vhd:32]
+ERROR: [VRFC 10-3782] unit 'behavioral' ignored due to previous errors [C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/sim_1/new/tb_top.vhd:11]
+INFO: [VRFC 10-3070] VHDL file 'C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/sim_1/new/tb_top.vhd' ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_top'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_top_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/sources_1/new/clock_enable.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'clock_enable'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/sources_1/new/cnt_up_down.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'cnt_up_down'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/sources_1/new/hex_7seg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'hex_7seg'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/sources_1/new/hex_7seg_letters.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'hex_7seg_letters'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/sources_1/new/driver_7seg_4digits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'driver_7seg_4digits'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/sources_1/new/pwm_generator.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'pwm_generator'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/sources_1/new/sin_generator.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'sin_generator'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/sources_1/new/switch_handler.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'switch_handler'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/sources_1/new/top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'top'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/sim_1/new/tb_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_top'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_top_behav xil_defaultlib.tb_top -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_top_behav xil_defaultlib.tb_top -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.math_real
+Compiling architecture behavioral of entity xil_defaultlib.switch_handler [switch_handler_default]
+Compiling architecture behav of entity xil_defaultlib.sin_generator [sin_generator_default]
+Compiling architecture behavioral of entity xil_defaultlib.pwm_generator [pwm_generator_default]
+Compiling architecture behavioral of entity xil_defaultlib.clock_enable [\clock_enable(g_max=40000)\]
+Compiling architecture behavioral of entity xil_defaultlib.cnt_up_down [\cnt_up_down(g_cnt_width=2)\]
+Compiling architecture behavioral of entity xil_defaultlib.hex_7seg [hex_7seg_default]
+Compiling architecture behavioral of entity xil_defaultlib.hex_7seg_letters [hex_7seg_letters_default]
+Compiling architecture behavioral of entity xil_defaultlib.driver_7seg_4digits [driver_7seg_4digits_default]
+Compiling architecture behavioral of entity xil_defaultlib.top [top_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_top
+Built simulation snapshot tb_top_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_top_behav -key {Behavioral:sim_1:Functional:tb_top} -tclbatch {tb_top.tcl} -view {C:/DC_vivado_projects/de1_projekt_final/de1_projekt/tb_top_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/DC_vivado_projects/de1_projekt_final/de1_projekt/tb_top_behav.wcfg
+WARNING: Simulation object /tb_top/BTN_DOWN_s was not found in the design.
+WARNING: Simulation object /tb_top/BTN_UP_s was not found in the design.
+WARNING: Simulation object /tb_top/CPU_RESETN_s was not found in the design.
+WARNING: Simulation object /tb_top/FREQ_s was not found in the design.
+WARNING: Simulation object /tb_top/AMP_s was not found in the design.
+WARNING: Simulation object /tb_top/CA_DEG_DISP_s was not found in the design.
+WARNING: Simulation object /tb_top/AN_DISP_s was not found in the design.
+source tb_top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 500ms
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+run: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 4317.574 ; gain = 47.211
+INFO: [Common 17-344] 'run' was cancelled
+INFO: [Common 17-344] 'source' was cancelled
+xsim: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 4317.574 ; gain = 47.211
+INFO: [Common 17-344] 'xsim' was cancelled
+INFO: [Vivado 12-5357] 'simulate' step aborted
+launch_simulation: Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 4317.574 ; gain = 47.211
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+set_property -name {xsim.simulate.runtime} -value {100ms} -objects [get_filesets sim_1]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_top'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_top_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/sources_1/new/top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'top'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/sim_1/new/tb_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_top'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_top_behav xil_defaultlib.tb_top -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_top_behav xil_defaultlib.tb_top -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.math_real
+Compiling architecture behavioral of entity xil_defaultlib.switch_handler [switch_handler_default]
+Compiling architecture behav of entity xil_defaultlib.sin_generator [sin_generator_default]
+Compiling architecture behavioral of entity xil_defaultlib.pwm_generator [pwm_generator_default]
+Compiling architecture behavioral of entity xil_defaultlib.clock_enable [\clock_enable(g_max=40000)\]
+Compiling architecture behavioral of entity xil_defaultlib.cnt_up_down [\cnt_up_down(g_cnt_width=2)\]
+Compiling architecture behavioral of entity xil_defaultlib.hex_7seg [hex_7seg_default]
+Compiling architecture behavioral of entity xil_defaultlib.hex_7seg_letters [hex_7seg_letters_default]
+Compiling architecture behavioral of entity xil_defaultlib.driver_7seg_4digits [driver_7seg_4digits_default]
+Compiling architecture behavioral of entity xil_defaultlib.top [top_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_top
+Built simulation snapshot tb_top_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_top_behav -key {Behavioral:sim_1:Functional:tb_top} -tclbatch {tb_top.tcl} -view {C:/DC_vivado_projects/de1_projekt_final/de1_projekt/tb_top_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/DC_vivado_projects/de1_projekt_final/de1_projekt/tb_top_behav.wcfg
+WARNING: Simulation object /tb_top/BTN_DOWN_s was not found in the design.
+WARNING: Simulation object /tb_top/BTN_UP_s was not found in the design.
+WARNING: Simulation object /tb_top/CPU_RESETN_s was not found in the design.
+WARNING: Simulation object /tb_top/FREQ_s was not found in the design.
+WARNING: Simulation object /tb_top/AMP_s was not found in the design.
+WARNING: Simulation object /tb_top/CA_DEG_DISP_s was not found in the design.
+WARNING: Simulation object /tb_top/AN_DISP_s was not found in the design.
+source tb_top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 100ms
+run: Time (s): cpu = 00:00:12 ; elapsed = 00:00:21 . Memory (MB): peak = 4379.820 ; gain = 55.047
+xsim: Time (s): cpu = 00:00:14 ; elapsed = 00:00:23 . Memory (MB): peak = 4379.820 ; gain = 55.047
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 100ms
+launch_simulation: Time (s): cpu = 00:00:15 ; elapsed = 00:00:26 . Memory (MB): peak = 4379.820 ; gain = 55.047
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a50ticsg324-1L
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 4405.172 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 14 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2021.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/constrs_1/new/nexys-a7-50t.xdc]
+Finished Parsing XDC File [C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/constrs_1/new/nexys-a7-50t.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4441.082 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+close_design
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a50ticsg324-1L
+Top: top
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 4721.363 ; gain = 183.758
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top' [C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/sources_1/new/top.vhd:54]
+INFO: [Synth 8-638] synthesizing module 'switch_handler' [C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/sources_1/new/switch_handler.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'switch_handler' (1#1) [C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/sources_1/new/switch_handler.vhd:44]
+INFO: [Synth 8-638] synthesizing module 'sin_generator' [C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/sources_1/new/sin_generator.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'sin_generator' (2#1) [C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/sources_1/new/sin_generator.vhd:19]
+INFO: [Synth 8-638] synthesizing module 'pwm_generator' [C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/sources_1/new/pwm_generator.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'pwm_generator' (3#1) [C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/sources_1/new/pwm_generator.vhd:14]
+INFO: [Synth 8-638] synthesizing module 'driver_7seg_4digits' [C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/sources_1/new/driver_7seg_4digits.vhd:48]
+INFO: [Synth 8-638] synthesizing module 'clock_enable' [C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/sources_1/new/clock_enable.vhd:36]
+	Parameter g_MAX bound to: 40000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'clock_enable' (4#1) [C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/sources_1/new/clock_enable.vhd:36]
+INFO: [Synth 8-638] synthesizing module 'cnt_up_down' [C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/sources_1/new/cnt_up_down.vhd:35]
+	Parameter g_CNT_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'cnt_up_down' (5#1) [C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/sources_1/new/cnt_up_down.vhd:35]
+INFO: [Synth 8-638] synthesizing module 'hex_7seg' [C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/sources_1/new/hex_7seg.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'hex_7seg' (6#1) [C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/sources_1/new/hex_7seg.vhd:42]
+INFO: [Synth 8-638] synthesizing module 'hex_7seg_letters' [C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/sources_1/new/hex_7seg_letters.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'hex_7seg_letters' (7#1) [C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/sources_1/new/hex_7seg_letters.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'driver_7seg_4digits' (8#1) [C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/sources_1/new/driver_7seg_4digits.vhd:48]
+INFO: [Synth 8-256] done synthesizing module 'top' (9#1) [C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/sources_1/new/top.vhd:54]
+WARNING: [Synth 8-3917] design top has port AUD_SD driven by constant 1
+WARNING: [Synth 8-3917] design top has port AN[7] driven by constant 1
+WARNING: [Synth 8-3917] design top has port AN[6] driven by constant 1
+WARNING: [Synth 8-3917] design top has port AN[5] driven by constant 1
+WARNING: [Synth 8-3917] design top has port AN[4] driven by constant 1
+WARNING: [Synth 8-7129] Port sw[15] in module switch_handler is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[14] in module switch_handler is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[13] in module switch_handler is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[12] in module switch_handler is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[11] in module switch_handler is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[10] in module switch_handler is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[9] in module switch_handler is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[8] in module switch_handler is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 4772.438 ; gain = 234.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 4790.340 ; gain = 252.734
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 4790.340 ; gain = 252.734
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 4790.340 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/constrs_1/new/nexys-a7-50t.xdc]
+Finished Parsing XDC File [C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/constrs_1/new/nexys-a7-50t.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4902.977 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 4902.977 ; gain = 365.371
+20 Infos, 13 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 4902.977 ; gain = 365.371
+close_sim
+INFO: xsimkernel Simulation Memory Usage: 15944 KB (Peak: 15944 KB), Simulation CPU Usage: 20796 ms
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_top'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_top_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/sim_1/new/tb_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_top'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_top_behav xil_defaultlib.tb_top -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_top_behav xil_defaultlib.tb_top -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.math_real
+Compiling architecture behavioral of entity xil_defaultlib.switch_handler [switch_handler_default]
+Compiling architecture behav of entity xil_defaultlib.sin_generator [sin_generator_default]
+Compiling architecture behavioral of entity xil_defaultlib.pwm_generator [pwm_generator_default]
+Compiling architecture behavioral of entity xil_defaultlib.clock_enable [\clock_enable(g_max=40000)\]
+Compiling architecture behavioral of entity xil_defaultlib.cnt_up_down [\cnt_up_down(g_cnt_width=2)\]
+Compiling architecture behavioral of entity xil_defaultlib.hex_7seg [hex_7seg_default]
+Compiling architecture behavioral of entity xil_defaultlib.hex_7seg_letters [hex_7seg_letters_default]
+Compiling architecture behavioral of entity xil_defaultlib.driver_7seg_4digits [driver_7seg_4digits_default]
+Compiling architecture behavioral of entity xil_defaultlib.top [top_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_top
+Built simulation snapshot tb_top_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_top_behav -key {Behavioral:sim_1:Functional:tb_top} -tclbatch {tb_top.tcl} -view {C:/DC_vivado_projects/de1_projekt_final/de1_projekt/tb_top_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/DC_vivado_projects/de1_projekt_final/de1_projekt/tb_top_behav.wcfg
+WARNING: Simulation object /tb_top/BTN_DOWN_s was not found in the design.
+WARNING: Simulation object /tb_top/BTN_UP_s was not found in the design.
+WARNING: Simulation object /tb_top/CPU_RESETN_s was not found in the design.
+WARNING: Simulation object /tb_top/FREQ_s was not found in the design.
+WARNING: Simulation object /tb_top/AMP_s was not found in the design.
+WARNING: Simulation object /tb_top/CA_DEG_DISP_s was not found in the design.
+WARNING: Simulation object /tb_top/AN_DISP_s was not found in the design.
+source tb_top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 100ms
+run: Time (s): cpu = 00:00:13 ; elapsed = 00:00:21 . Memory (MB): peak = 4964.547 ; gain = 46.441
+xsim: Time (s): cpu = 00:00:14 ; elapsed = 00:00:22 . Memory (MB): peak = 4964.547 ; gain = 46.441
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 100ms
+launch_simulation: Time (s): cpu = 00:00:15 ; elapsed = 00:00:26 . Memory (MB): peak = 4964.547 ; gain = 46.441
+save_wave_config {C:/DC_vivado_projects/de1_projekt_final/de1_projekt/tb_top_behav.wcfg}
+close_sim
+INFO: xsimkernel Simulation Memory Usage: 15944 KB (Peak: 15944 KB), Simulation CPU Usage: 20608 ms
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_top'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_top_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_top_behav xil_defaultlib.tb_top -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_top_behav xil_defaultlib.tb_top -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_top_behav -key {Behavioral:sim_1:Functional:tb_top} -tclbatch {tb_top.tcl} -view {C:/DC_vivado_projects/de1_projekt_final/de1_projekt/tb_top_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/DC_vivado_projects/de1_projekt_final/de1_projekt/tb_top_behav.wcfg
+source tb_top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 100ms
+run: Time (s): cpu = 00:00:13 ; elapsed = 00:00:20 . Memory (MB): peak = 5891.770 ; gain = 0.000
+xsim: Time (s): cpu = 00:00:14 ; elapsed = 00:00:22 . Memory (MB): peak = 5891.770 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 100ms
+launch_simulation: Time (s): cpu = 00:00:14 ; elapsed = 00:00:25 . Memory (MB): peak = 5891.770 ; gain = 0.000
+current_wave_config {tb_top_behav.wcfg}
+tb_top_behav.wcfg
+add_wave {{/tb_top/s_CA_vector}} 
+current_wave_config {tb_top_behav.wcfg}
+tb_top_behav.wcfg
+add_wave {{/tb_top/s_AUD_SD}} 
+current_wave_config {tb_top_behav.wcfg}
+tb_top_behav.wcfg
+add_wave {{/tb_top/s_AUD_PWM}} 
+current_wave_config {tb_top_behav.wcfg}
+tb_top_behav.wcfg
+log_wave {/tb_top/s_AN_vector} 
+current_wave_config {tb_top_behav.wcfg}
+tb_top_behav.wcfg
+add_wave {{/tb_top/s_AN_vector}} 
+save_wave_config {C:/DC_vivado_projects/de1_projekt_final/de1_projekt/tb_top_behav.wcfg}
+close_sim
+INFO: xsimkernel Simulation Memory Usage: 15944 KB (Peak: 15944 KB), Simulation CPU Usage: 20343 ms
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_top'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_top_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_top_behav xil_defaultlib.tb_top -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_top_behav xil_defaultlib.tb_top -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_top_behav -key {Behavioral:sim_1:Functional:tb_top} -tclbatch {tb_top.tcl} -view {C:/DC_vivado_projects/de1_projekt_final/de1_projekt/tb_top_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/DC_vivado_projects/de1_projekt_final/de1_projekt/tb_top_behav.wcfg
+source tb_top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 100ms
+run: Time (s): cpu = 00:00:12 ; elapsed = 00:00:20 . Memory (MB): peak = 5891.770 ; gain = 0.000
+xsim: Time (s): cpu = 00:00:13 ; elapsed = 00:00:22 . Memory (MB): peak = 5891.770 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 100ms
+launch_simulation: Time (s): cpu = 00:00:14 ; elapsed = 00:00:25 . Memory (MB): peak = 5891.770 ; gain = 0.000
+close_sim
+INFO: xsimkernel Simulation Memory Usage: 15944 KB (Peak: 15944 KB), Simulation CPU Usage: 20233 ms
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_top'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_top_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/sim_1/new/tb_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_top'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_top_behav xil_defaultlib.tb_top -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_top_behav xil_defaultlib.tb_top -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.math_real
+Compiling architecture behavioral of entity xil_defaultlib.switch_handler [switch_handler_default]
+Compiling architecture behav of entity xil_defaultlib.sin_generator [sin_generator_default]
+Compiling architecture behavioral of entity xil_defaultlib.pwm_generator [pwm_generator_default]
+Compiling architecture behavioral of entity xil_defaultlib.clock_enable [\clock_enable(g_max=40000)\]
+Compiling architecture behavioral of entity xil_defaultlib.cnt_up_down [\cnt_up_down(g_cnt_width=2)\]
+Compiling architecture behavioral of entity xil_defaultlib.hex_7seg [hex_7seg_default]
+Compiling architecture behavioral of entity xil_defaultlib.hex_7seg_letters [hex_7seg_letters_default]
+Compiling architecture behavioral of entity xil_defaultlib.driver_7seg_4digits [driver_7seg_4digits_default]
+Compiling architecture behavioral of entity xil_defaultlib.top [top_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_top
+Built simulation snapshot tb_top_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_top_behav -key {Behavioral:sim_1:Functional:tb_top} -tclbatch {tb_top.tcl} -view {C:/DC_vivado_projects/de1_projekt_final/de1_projekt/tb_top_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/DC_vivado_projects/de1_projekt_final/de1_projekt/tb_top_behav.wcfg
+WARNING: Simulation object /tb_top/s_output was not found in the design.
+source tb_top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 100ms
+run: Time (s): cpu = 00:00:13 ; elapsed = 00:00:21 . Memory (MB): peak = 5891.770 ; gain = 0.000
+xsim: Time (s): cpu = 00:00:14 ; elapsed = 00:00:23 . Memory (MB): peak = 5891.770 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 100ms
+launch_simulation: Time (s): cpu = 00:00:14 ; elapsed = 00:00:26 . Memory (MB): peak = 5891.770 ; gain = 0.000
+close_sim
+INFO: xsimkernel Simulation Memory Usage: 15944 KB (Peak: 15944 KB), Simulation CPU Usage: 20781 ms
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_top'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_top_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/sim_1/new/tb_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_top'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_top_behav xil_defaultlib.tb_top -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_top_behav xil_defaultlib.tb_top -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.math_real
+Compiling architecture behavioral of entity xil_defaultlib.switch_handler [switch_handler_default]
+Compiling architecture behav of entity xil_defaultlib.sin_generator [sin_generator_default]
+Compiling architecture behavioral of entity xil_defaultlib.pwm_generator [pwm_generator_default]
+Compiling architecture behavioral of entity xil_defaultlib.clock_enable [\clock_enable(g_max=40000)\]
+Compiling architecture behavioral of entity xil_defaultlib.cnt_up_down [\cnt_up_down(g_cnt_width=2)\]
+Compiling architecture behavioral of entity xil_defaultlib.hex_7seg [hex_7seg_default]
+Compiling architecture behavioral of entity xil_defaultlib.hex_7seg_letters [hex_7seg_letters_default]
+Compiling architecture behavioral of entity xil_defaultlib.driver_7seg_4digits [driver_7seg_4digits_default]
+Compiling architecture behavioral of entity xil_defaultlib.top [top_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_top
+Built simulation snapshot tb_top_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_top_behav -key {Behavioral:sim_1:Functional:tb_top} -tclbatch {tb_top.tcl} -view {C:/DC_vivado_projects/de1_projekt_final/de1_projekt/tb_top_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/DC_vivado_projects/de1_projekt_final/de1_projekt/tb_top_behav.wcfg
+WARNING: Simulation object /tb_top/s_output was not found in the design.
+source tb_top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 100ms
+run: Time (s): cpu = 00:00:12 ; elapsed = 00:00:21 . Memory (MB): peak = 5891.770 ; gain = 0.000
+xsim: Time (s): cpu = 00:00:13 ; elapsed = 00:00:23 . Memory (MB): peak = 5891.770 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 100ms
+launch_simulation: Time (s): cpu = 00:00:13 ; elapsed = 00:00:26 . Memory (MB): peak = 5891.770 ; gain = 0.000
+save_wave_config {C:/DC_vivado_projects/de1_projekt_final/de1_projekt/tb_top_behav.wcfg}
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.srcs/utils_1/imports/synth_1/top.dcp with file C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/synth_1/top.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Apr 28 17:47:16 2022] Launched synth_1...
+Run output will be captured here: C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/synth_1/runme.log
+[Thu Apr 28 17:47:16 2022] Launched impl_1...
+Run output will be captured here: C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property PROGRAM.FILE {C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/impl_1/top.bit} [get_hw_devices xc7a50t_0]
+program_hw_devices [get_hw_devices xc7a50t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 5891.770 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a50t_0] 0]
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Labtools 27-1434] Device xc7a50t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+INFO: [Common 17-344] 'refresh_hw_device' was cancelled

@@ -1,0 +1,155 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Thu Apr 28 15:32:23 2022
+# Process ID: 22496
+# Current directory: C:/DC_vivado_projects/de1_projekt_final/de1_projekt
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19564 C:\DC_vivado_projects\de1_projekt_final\de1_projekt\de1_projekt.xpr
+# Log file: C:/DC_vivado_projects/de1_projekt_final/de1_projekt/vivado.log
+# Journal file: C:/DC_vivado_projects/de1_projekt_final/de1_projekt\vivado.jou
+# Running On: DESKTOP-S6T5VL6, OS: Windows, CPU Frequency: 2400 MHz, CPU Physical cores: 8, Host memory: 34092 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/impl_1/top.bit} [get_hw_devices xc7a50t_0]
+current_hw_device [get_hw_devices xc7a50t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a50t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property PROGRAM.FILE {C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/impl_1/top.bit} [get_hw_devices xc7a50t_0]
+program_hw_devices [get_hw_devices xc7a50t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a50t_0] 0]
+close_hw_manager
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/impl_1/top.bit} [get_hw_devices xc7a50t_0]
+current_hw_device [get_hw_devices xc7a50t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a50t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property PROGRAM.FILE {C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/impl_1/top.bit} [get_hw_devices xc7a50t_0]
+program_hw_devices [get_hw_devices xc7a50t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a50t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property PROGRAM.FILE {C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/impl_1/top.bit} [get_hw_devices xc7a50t_0]
+program_hw_devices [get_hw_devices xc7a50t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a50t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property PROGRAM.FILE {C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/impl_1/top.bit} [get_hw_devices xc7a50t_0]
+program_hw_devices [get_hw_devices xc7a50t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a50t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property PROGRAM.FILE {C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/impl_1/top.bit} [get_hw_devices xc7a50t_0]
+program_hw_devices [get_hw_devices xc7a50t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a50t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property PROGRAM.FILE {C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/impl_1/top.bit} [get_hw_devices xc7a50t_0]
+program_hw_devices [get_hw_devices xc7a50t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a50t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property PROGRAM.FILE {C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/impl_1/top.bit} [get_hw_devices xc7a50t_0]
+program_hw_devices [get_hw_devices xc7a50t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a50t_0] 0]
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property PROGRAM.FILE {C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/impl_1/top.bit} [get_hw_devices xc7a50t_0]
+program_hw_devices [get_hw_devices xc7a50t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a50t_0] 0]
+launch_simulation
+launch_simulation
+open_wave_config C:/DC_vivado_projects/de1_projekt_final/de1_projekt/tb_top_behav.wcfg
+source tb_top.tcl
+set_property -name {xsim.simulate.runtime} -value {100ms} -objects [get_filesets sim_1]
+close_sim
+launch_simulation
+open_wave_config C:/DC_vivado_projects/de1_projekt_final/de1_projekt/tb_top_behav.wcfg
+source tb_top.tcl
+open_run synth_1 -name synth_1
+close_design
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+close_sim
+launch_simulation
+open_wave_config C:/DC_vivado_projects/de1_projekt_final/de1_projekt/tb_top_behav.wcfg
+source tb_top.tcl
+save_wave_config {C:/DC_vivado_projects/de1_projekt_final/de1_projekt/tb_top_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/DC_vivado_projects/de1_projekt_final/de1_projekt/tb_top_behav.wcfg
+source tb_top.tcl
+current_wave_config {tb_top_behav.wcfg}
+add_wave {{/tb_top/s_CA_vector}} 
+current_wave_config {tb_top_behav.wcfg}
+add_wave {{/tb_top/s_AUD_SD}} 
+current_wave_config {tb_top_behav.wcfg}
+add_wave {{/tb_top/s_AUD_PWM}} 
+current_wave_config {tb_top_behav.wcfg}
+log_wave {/tb_top/s_AN_vector} 
+current_wave_config {tb_top_behav.wcfg}
+add_wave {{/tb_top/s_AN_vector}} 
+save_wave_config {C:/DC_vivado_projects/de1_projekt_final/de1_projekt/tb_top_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/DC_vivado_projects/de1_projekt_final/de1_projekt/tb_top_behav.wcfg
+source tb_top.tcl
+close_sim
+launch_simulation
+open_wave_config C:/DC_vivado_projects/de1_projekt_final/de1_projekt/tb_top_behav.wcfg
+source tb_top.tcl
+close_sim
+launch_simulation
+open_wave_config C:/DC_vivado_projects/de1_projekt_final/de1_projekt/tb_top_behav.wcfg
+source tb_top.tcl
+save_wave_config {C:/DC_vivado_projects/de1_projekt_final/de1_projekt/tb_top_behav.wcfg}
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property PROGRAM.FILE {C:/DC_vivado_projects/de1_projekt_final/de1_projekt/de1_projekt.runs/impl_1/top.bit} [get_hw_devices xc7a50t_0]
+program_hw_devices [get_hw_devices xc7a50t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a50t_0] 0]
